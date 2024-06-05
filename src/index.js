@@ -12,7 +12,7 @@ const port = process.env.PORT || 8000;
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("⚙️ BatBall app server running ✌️");
+  res.send("🏏 BatBall app server running ✌️");
 });
 
 app.listen(port, () => {
