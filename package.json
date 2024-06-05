@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "build": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "abu sufian",
   "license": "ISC",
